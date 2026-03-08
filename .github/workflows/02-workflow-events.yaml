@@ -1,0 +1,9 @@
+name: 02 - Eventos
+on: push
+jobs:
+  ShowTrigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo-Show-Trigger 
+        run: |
+            echo 'Evento que ha disparado el workflow: ${{ github.event_name }}'
