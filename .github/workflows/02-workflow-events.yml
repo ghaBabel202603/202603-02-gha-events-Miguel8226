@@ -2,8 +2,8 @@ name: 02 - Eventos
 on: 
   push:
   pull_request:
-  schedule:
-  - cron: '5 20 * * *'
+  #schedule:
+  #- cron: '5 20 * * *'
   workflow_dispatch:
 jobs:
   ShowTrigger: 
