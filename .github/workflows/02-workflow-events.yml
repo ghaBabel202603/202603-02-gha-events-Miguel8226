@@ -6,7 +6,7 @@ on:
   - cron: '5 20 * * *'
   workflow_dispatch:
 jobs:
-  ShowTrigger:
+  ShowTrigger: 
     runs-on: ubuntu-latest
     steps:
       - name: echo-Show-Trigger 
