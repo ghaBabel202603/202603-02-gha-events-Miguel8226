@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: echo-Show-Trigger 
         run: |
-            echo 'Evento que ha disparado el workflow: ${{ github.event_name }}'
+            echo 'Evento que ha disparado el workflow: ${{ github.event_name }}' 
